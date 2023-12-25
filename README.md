@@ -1,1 +1,6 @@
-Nguyễn Nguyên Trung - 2080600752
+## Information
+
+Name: Nguyễn Nguyên Trung
+Mssv: 2080600752
+
+

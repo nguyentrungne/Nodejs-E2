@@ -10,6 +10,7 @@ var usersRouter = require("./routes/users");
 var itemsRouter = require("./routes/items");
 var producRouter = require("./routes/product");
 var authenRouter = require("./routes/authen");
+var departmentRouter = require('./routes/department');
 
 var app = express();
 
@@ -28,6 +29,7 @@ app.use("/users", usersRouter);
 app.use("/items", itemsRouter);
 app.use("/product", producRouter);
 app.use("/authen", authenRouter);
+app.use('/departments',departmentRouter);
 
 mongoose.connect(
   "mongodb+srv://chinachess:chinachess123@cluster0.43x9eud.mongodb.net/chinachess"

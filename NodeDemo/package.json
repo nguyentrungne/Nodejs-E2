@@ -18,7 +18,12 @@
     "mongodb": "^6.3.0",
     "mongoose": "^8.0.3",
     "morgan": "~1.9.1",
+<<<<<<< HEAD
     "nodemailer": "^6.9.8",
     "punycode": "^2.3.1"
+=======
+    "punycode": "^2.3.1",
+    "vary": "^1.1.2"
+>>>>>>> c8c1700763e49ae2dec7a51cff1d9a425f5321eb
   }
 }
